@@ -35,8 +35,5 @@ A graphical user interface will open where you can enter the YouTube video URL, 
 * pytube3
 * certifi
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
