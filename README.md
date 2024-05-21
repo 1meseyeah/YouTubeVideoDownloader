@@ -16,3 +16,27 @@ To download a video using the CLI mode, run the following command:
 
 ```sh
 python3 youtube_video_downloader.py --url "YOUTUBE_VIDEO_URL" --path "DESTINATION_FOLDER_PATH" --format "mp4" 
+```
+
+Replace "YOUTUBE_VIDEO_URL" with the URL of the YouTube video you want to download, "DESTINATION_FOLDER_PATH" with the path of the folder where you want to save the downloaded video, and "mp4" with the desired file format ("mp4" or "webm").
+
+## Graphical User Interface (GUI)
+To use the GUI mode, run the script without any command line arguments:
+
+```sh
+python3 youtube_video_downloader.py --gui
+```
+
+A graphical user interface will open where you can enter the YouTube video URL, select the destination folder, and choose the file format for the downloaded video.
+
+## Requirements
+
+* Python 3.x
+* pytube3
+* certifi
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
